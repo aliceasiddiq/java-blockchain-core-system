@@ -1,0 +1,16 @@
+node:
+  id: auto-generate
+  host: 0.0.0.0
+  port: 8888
+  max_connections: 30
+  enable_upnp: true
+
+chain:
+  genesis_hash: "0000000000000000000000000000000000000000000000000000000000000000"
+  sync_on_startup: true
+  validate_all_blocks: true
+
+miner:
+  auto_start: false
+  cpu_usage_limit: 80
+  mine_when_idle: true
