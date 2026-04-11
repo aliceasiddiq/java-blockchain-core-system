@@ -1,0 +1,14 @@
+{
+  "logging": {
+    "level": "INFO",
+    "file": "./logs/blockchain.log",
+    "max_size": "10MB",
+    "backup_count": 5,
+    "format": "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  },
+  "network": {
+    "log_connections": true,
+    "log_transactions": true,
+    "log_blocks": true
+  }
+}
